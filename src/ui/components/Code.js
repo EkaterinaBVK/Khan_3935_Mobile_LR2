@@ -44,7 +44,6 @@ export default function Code(props) {
 
   const deleteCode = (code) => {
     let codes = isCodeList;
-    let newCodes = [];
     for (let i = 0; i < codes.length; i++) {
       if (codes[i].code == code) {
         codes.splice(i, 1);
